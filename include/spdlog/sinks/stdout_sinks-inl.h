@@ -17,7 +17,6 @@
 #include <spdlog/details/windows_include.h>
 
 #ifndef _USING_V110_SDK71_ // fileapi.h doesnt exist in winxp
-#include <fileapi.h> // WriteFile (..)
 #endif
 
 #include <io.h>      // _get_osfhandle(..)
